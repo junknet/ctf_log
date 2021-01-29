@@ -1,0 +1,31 @@
+128: mov qword_555555828930[reg[op1]],reg[op2]
+138: pop reg[op1]
+141: input
+152: and reg[op1],reg[op2]
+154: or  reg[op1],reg[op2]
+159: push reg[op1]
+163: and reg[op1],op2
+165: cmp reg[op1],reg[op2] 
+166: move qword_555555828930[reg[op1]],reg[op2]
+167: shl reg[op1],op2
+170: add reg[op1],op2
+171: sub reg[op1],op2
+185: shl reg[op1],reg[op2]
+195: jb op1
+206: mul reg[op1],reg[op2]
+207: output
+219: shr reg[op1],reg[op2]
+230: mov reg[op1],reg[op2]
+243: or reg[op1],op2
+250: sub reg[op1],op2
+5  : jmp op1
+13 : cmp reg[op1],op2  
+20 : jz  op1 
+43 : jnz op1
+51 : shr reg[op1],op2
+56 : mov reg[op1],op2
+61 : mov reg[op1],reg[op2]
+68 : mul reg[op1],op2
+72 : add reg[op1],reg[op2]
+88 : xor reg[op1],reg[op2]
+107: xor reg[op1],op2

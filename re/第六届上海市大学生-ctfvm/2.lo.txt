@@ -1,0 +1,115 @@
+[Running] python -u "c:\Users\junknet\Desktop\we\parse.py"
+88 xor reg[0],reg[0]
+88 xor reg[1],reg[1]
+88 xor reg[2],reg[2]
+88 xor reg[3],reg[3]
+88 xor reg[6],reg[6]
+88 xor reg[7],reg[7]
+56 mov reg[0],105
+56 mov reg[1],110
+56 mov reg[2],112
+56 mov reg[3],117
+56 mov reg[6],116
+56 mov reg[7],32
+207 output
+207 output
+207 output
+207 output
+207 output
+207 output
+56 mov reg[0],102
+56 mov reg[1],108
+56 mov reg[2],97
+56 mov reg[3],103
+56 mov reg[6],58
+56 mov reg[7],32
+207 output
+207 output
+207 output
+207 output
+207 output
+207 output
+88 xor reg[1],reg[1]
+141 input
+159 push reg[0]
+170 add reg[1],1
+13 cmp reg[1],38
+195 jb 31
+53nothing recognized!!!
+138 pop reg[0]
+13 cmp reg[0],125
+20 jz  18
+56 mov reg[0],98
+56 mov reg[1],121
+56 mov reg[2],101
+56 mov reg[3],126
+56 mov reg[6],126
+56 mov reg[7],126
+207 output
+207 output
+207 output
+207 output
+207 output
+207 output
+56 mov reg[0],10
+207 output
+53nothing recognized!!!
+56 mov reg[8],256
+13 cmp reg[8],225
+195 jb 25
+138 pop reg[0]
+mov qword_555555828930[reg[8]],reg[0]
+250 sub reg[8],1
+5 jmp 19
+138 pop reg[0]
+13 cmp reg[0],123
+43 jnz 3
+138 pop reg[0]
+13 cmp reg[0],103
+43 jnz 3
+138 pop reg[0]
+13 cmp reg[0],97
+43 jnz 3
+138 pop reg[0]
+13 cmp reg[0],108
+43 jnz 3
+138 pop reg[0]
+13 cmp reg[0],102
+43 jnz 3
+88 xor reg[9],reg[9]
+56 mov reg[10],225
+230 mov reg[7],reg[9]
+230 mov reg[6],reg[10]
+68 mul reg[6],251
+163 and reg[6],255
+165 cmp reg[6],reg[7]
+43 jnz 3
+170 add reg[9],1
+170 add reg[10],1
+13 cmp reg[9],32
+195 jb 42
+56 mov reg[0],99
+56 mov reg[1],111
+56 mov reg[2],114
+56 mov reg[3],114
+56 mov reg[6],101
+56 mov reg[7],99
+207 output
+207 output
+207 output
+207 output
+207 output
+207 output
+56 mov reg[0],116
+56 mov reg[1],108
+56 mov reg[2],121
+56 mov reg[3],33
+56 mov reg[6],10
+207 output
+207 output
+207 output
+207 output
+207 output
+
+[Done] exited with code=0 in 0.096 seconds
+
